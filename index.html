@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OV Conseil</title>
-<meta name="description" content="OV Conseil, SAS : conseil aux entreprises et édition de Stead, l'assistant personnel.">
-<style>
-  :root { --bg:#f6f4ef; --fg:#211f1b; --fg2:#5d574c; --line:#e6e0d4; --accent:#3065c6; }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:720px; margin:0 auto; padding:72px 24px 48px; }
-  h1 { font-size:36px; font-weight:600; letter-spacing:-0.01em; margin:0 0 8px; }
-  .lead { color:var(--fg2); font-size:18px; margin:0 0 40px; }
-  h2 { font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--fg2); margin:40px 0 12px; }
-  .card { background:#fdfcf9; border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin-bottom:12px; }
-  .card b { display:block; margin-bottom:4px; }
-  a { color:var(--accent); }
-  footer { border-top:1px solid var(--line); margin-top:56px; padding-top:20px; color:var(--fg2); font-size:14px; }
-</style>
-</head>
-<body>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OV Conseil · conseil et édition de logiciels</title><meta name="description" content="OV Conseil, SAS à Paris : conseil aux entreprises et édition de Stead, l'assistant personnel."><style>
+:root{--bg:#f6f4ef;--fg:#211f1b;--fg2:#5d574c;--line:#e6e0d4;--accent:#3065c6;--card:#fdfcf9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{border-bottom:1px solid var(--line);background:var(--card)}
+.bar{max-width:880px;margin:0 auto;padding:16px 24px;display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.bar b{font-size:18px;margin-right:auto}.bar a{color:var(--fg2);text-decoration:none}.bar a:hover{color:var(--accent)}
+main{max-width:880px;margin:0 auto;padding:48px 24px}
+h1{font-size:36px;font-weight:600;letter-spacing:-.01em;margin:0 0 8px;line-height:1.2}h2{font-size:22px;margin:40px 0 12px}h3{font-size:17px;margin:0 0 6px}
+.lead{color:var(--fg2);font-size:18px;margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+.card p{margin:0;color:var(--fg2)}a{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:10px 18px;border-radius:10px;font-weight:600;margin-top:8px}
+footer{border-top:1px solid var(--line);margin-top:56px;padding:24px;color:var(--fg2);font-size:14px;text-align:center}
+</style></head><body>
+<header><div class="bar"><b>OV Conseil</b><a href="/">Accueil</a><a href="/stead.html">Stead</a><a href="/contact.html">Contact</a><a href="/mentions-legales.html">Mentions légales</a></div></header>
 <main>
-  <h1>OV Conseil</h1>
-  <p class="lead">Conseil aux entreprises et édition de logiciels.</p>
-
-  <h2>Ce que nous faisons</h2>
-  <div class="card"><b>Conseil</b>Accompagnement des entreprises dans leur organisation et leur gestion.</div>
-  <div class="card"><b>Stead</b>Stead est un assistant personnel édité par OV Conseil. Il suit vos dossiers, vos mails et votre agenda, et vous écrit quand il faut. Application pour Windows, Mac et téléphone.</div>
-
-  <h2>Contact</h2>
-  <div class="card">
-    <a href="mailto:contact@ovconseil.fr">contact@ovconseil.fr</a><br>
-    47 rue Vivienne, 75002 Paris, France
-  </div>
-
-  <footer>
-    OV CONSEIL, SAS · SIREN 106 525 074 · TVA FR04106525074<br>
-    Siège : 47 rue Vivienne, 75002 Paris · Directeur de la publication : Olivier Vinciguerra
-  </footer>
-</main>
-</body>
-</html>
+<h1>OV Conseil</h1>
+<p class="lead">Société de conseil aux entreprises et éditeur de logiciels, basée à Paris.</p>
+<div class="grid">
+<div class="card"><h3>Conseil</h3><p>Nous accompagnons les dirigeants et les équipes dans leur organisation, leurs outils et la mise en place de l'intelligence artificielle dans leur travail quotidien.</p></div>
+<div class="card"><h3>Édition de logiciels</h3><p>Nous concevons et éditons <a href="/stead.html">Stead</a>, un assistant personnel pour Windows, Mac et téléphone, en test auprès d'utilisateurs depuis 2026.</p></div>
+<div class="card"><h3>Données en Europe</h3><p>Nos services sont hébergés en France et en Europe. Les données de nos utilisateurs restent sous leur contrôle et ne sont jamais revendues.</p></div>
+</div>
+<h2>Stead, notre produit</h2>
+<p>Stead suit vos dossiers, vos mails et votre agenda, prépare ce qu'il faut (réponses, rendez-vous, démarches, recherches) et vous écrit sur WhatsApp ou par SMS quand quelque chose vous attend. Rien ne part sans votre accord.</p>
+<a class="btn" href="/stead.html">Découvrir Stead</a>
+<h2>Nous contacter</h2>
+<p>Écrivez-nous à <a href="mailto:contact@ovconseil.fr">contact@ovconseil.fr</a>. Nous répondons sous deux jours ouvrés.</p>
+</main><footer>OV CONSEIL, SAS · SIREN 106 525 074 · TVA FR04106525074 · 47 rue Vivienne, 75002 Paris, France · <a href="mailto:contact@ovconseil.fr">contact@ovconseil.fr</a><br><a href="/mentions-legales.html">Mentions légales</a> · <a href="/confidentialite.html">Confidentialité</a></footer></body></html>
